@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Notes Hub</title>
+    <link rel="stylesheet" href="site/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">College Notes Hub</div>
+        <nav class="nav">
+            <a href="#notes">Notes</a>
+            <a href="#pyqs">PYQs</a>
+            <a href="#internships">Internships</a>
+            <a href="#community">Community</a>
+            <button class="btn-login" onclick="window.location.href='site/2.html'">Login</button>
+            <button class="btn-register">Register</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <h1>Share Knowledge, Build Future</h1>
+                <p>Your one-stop platform for notes, previous year questions, and internships.</p>
+                <button class="btn-cta" onclick="window.location.href='site/2.html'">Join Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <h2>Platform Features</h2>
+        <div class="feature-cards">
+            <div class="card card1">
+                <h3>Notes Sharing</h3>
+                <p>Access and share notes with your peers and teachers.</p>
+            </div>
+            <div class="card card2">
+                <h3>Previous Year Questions</h3>
+                <p>Prepare better with past papers shared by alumni and faculty.</p>
+            </div>
+            <div class="card card3">
+                <h3>Internships</h3>
+                <p>Find the latest internship opportunities and tips from alumni.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Notes & PYQs Section -->
+    <section class="recent">
+        <h2>Recent Notes & PYQs</h2>
+        <div class="recent-items" id="recent-items">
+            <!-- Cards are dynamically added via JavaScript -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 College Notes Hub | All rights reserved</p>
+        <nav class="footer-nav">
+            <a href="#about">About</a>
+            <a href="#terms">Terms</a>
+            <a href="#privacy">Privacy</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </footer>
+
+    <script src="site/script.js"></script>
+</body>
+</html>
+
